@@ -19,3 +19,10 @@ FastAPI, Python, psycopg2 (connecting to PostgreSQL Database)
 ### Database
 
 PostgreSQL (Relational Datbase)
+
+## Build process
+
+```
+(/client) $ yarn build
+(/) $ cp -R client/dist/* server/web
+```
